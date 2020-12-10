@@ -1,0 +1,85 @@
+html {
+    background-color: rgba(200,100,10,0.2);
+    font-size: 22px;
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: right;
+    direction: rtl;
+}
+
+.details figure {
+    width: 15em;
+    float: left;
+    margin: 1em;
+    text-align: center;
+}
+
+form.upload {
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-row-gap: 1em;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    gap: 3em;
+}
+
+header,
+main,
+footer {
+    padding: 2em;
+    text-align: center;
+}
+
+form.register {
+    display: grid;
+    grid-template-columns: 90%;
+}
+
+main.register {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.results {
+    align-items: center;
+    text-align: center;
+
+}
+
+.result {
+    border: 1px solid rgba(20, 200, 100, 0.7);
+    margin: 1em;
+}
+
+header a {
+    float: right;
+    margin-right: 2em;
+}
+
+header .links a,
+ footer a{
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid rgba(20, 20, 200, 0.7);
+}
+
+a {
+    text-decoration: none;
+    color: rgba(20, 20, 200, 0.7);
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid rgba(20, 20, 200, 0.7);
+}
+
+a:active {
+    color: black;
+}
+
+h1, h2 {
+    font-size: 3em;
+    text-align: center;
+}
